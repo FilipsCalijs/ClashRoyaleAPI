@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  font-family: 'ClashRoyaleFont', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-stroke: 31px black; 
+}
+@font-face {
+  font-family: 'ClashRoyaleFont';
+  src: url('../../font/Font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,42 @@
+.app__banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: url('../../img/backgroundimg.png') center/cover no-repeat; 
+
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .top-image, .bottom-image {
+        width: 40%;
+        height: 20%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 1); 
+    }
+
+    .bottom-image {
+        bottom: 0;
+    }
+    .content {
+        width: 30%;
+        height: 50%;
+    }
+    .chose-you-card {
+
+        top: 0; 
+
+        color: white;
+        font-size: auto;
+    }
+}

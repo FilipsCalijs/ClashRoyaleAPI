@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Clash Royale Draft Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Welcome to the world of Clash Royale Draft Challenge! This game is inspired by the popular Clash Royale game and utilizes the Clash Royale API to fetch character data.
 
-In the project directory, you can run:
+## Project Purpose
 
-### `npm start`
+This project is created with the goal of learning various aspects of web development and React. Here, you will find a hands-on guide to the following aspects:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Working with a server**: The game uses a server to interact with the Clash Royale API and fetch character data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Using an API**: To populate the game's content, we leverage the Clash Royale API to retrieve data about various characters.
 
-### `npm test`
+- **Interface design**: The project includes a beautiful and straightforward design that allows users to interact with the game effortlessly.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **CSS Styling**: You'll learn how to create an attractive and responsive design using CSS styles.
 
-### `npm run build`
+- **React and its properties**: Utilizing React, you'll learn how to efficiently organize components, pass properties, and manage the application state.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to Play
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Visit the [game website](https://localhost:3000).
+2. Choose a card, similar to the "draft challenge" mode, and enjoy the game!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies
 
-### `npm run eject`
+- **React**: The primary framework for creating the user interface.
+- **Node.js / Express**: The server-side for interacting with the Clash Royale API.
+- **CSS**: Styles for creating an appealing design.
+- **Clash Royale API**: Used to fetch data about characters.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation and Running
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository: `git clone https://github.com/your-username/your-game-repo.git`
+2. Navigate to the project folder: `cd your-game-repo`
+3. Install dependencies: `npm install`
+4. Start the server: `npm start`
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Filips Calijs 

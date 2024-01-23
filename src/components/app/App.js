@@ -1,11 +1,15 @@
-
+import React from 'react';
 import './App.css';
-import BackgroundImg from '../Background/background'
+
+import BackgroundImg from '../Background/background';
 
 
 function App() {
   return (
-        <BackgroundImg/>
+    <div>
+      <BackgroundImg />
+      <AppeardCard />
+    </div>
   );
 }
 

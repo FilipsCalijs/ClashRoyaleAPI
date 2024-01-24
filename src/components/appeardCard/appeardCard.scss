@@ -1,20 +1,60 @@
-
-
 .appeard-card-container {
-
-}
-
-.card-images-container {
+    text-align: center; 
+  }
+  
+  .card-images-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-}
-
-.card-image {
-
-}
-
-.spacer {
-    width: 20px; 
-}
+  }
+  
+  .card-item {
+    width: 30%; /* Унаследовать ширину */
+    height: 40%; /* Унаследовать высоту */
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 100%; 
+    transition: transform 0.5s ease;
+    z-index: 1; 
+  }
+  
+  .card-image:hover {
+    transform: translateY(-10px); 
+  }
+  
+  @mixin elexir-image-mixin {
+    position: absolute;
+    top: 50%;
+    left: auto;
+    transform: translateX(-50%); /* Центрирование относительно родителя */
+    z-index: 2; /* Установка z-index для div elexir-image */
+    width: 70px;
+    height: 70px;
+    background-image: url('../../img/Elixir.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .elexir-image {
+    @include elexir-image-mixin;
+  }
+  
+  .elexir-image-2 {
+    @include elexir-image-mixin;
+  }
+  
+  .elexir {
+    position: absolute;
+    bottom: 10%; 
+    width: 100%;
+    font-size: 34px;
+    text-align: center;
+  }
+  
+  .spacer {
+    width: 30px;
+  }
+  

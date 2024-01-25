@@ -7,6 +7,8 @@ import BackgroundImg from '../Background/background';
 function App() {
   return (
     <div>
+
+
       <BackgroundImg />
       
     </div>

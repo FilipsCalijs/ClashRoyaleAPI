@@ -1,8 +1,8 @@
 import React from 'react';
 import './appeardCard.scss'; 
 import GuardsCard from '../../img/GuardsCard.webp';
-
-
+import Time from '../timer/Timer'
+// как сделать визуальный таймер в react? countdown timer with progress bar in js https://www.youtube.com/watch?v=js8YiWjrOrw
 
 const AppeardCard = () => {
     return (
@@ -26,6 +26,7 @@ const AppeardCard = () => {
                     </div>
                 </div>
             </div>
+            <Time></Time>
         </div>
     );
 }

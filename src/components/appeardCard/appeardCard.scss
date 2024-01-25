@@ -10,8 +10,8 @@
   }
   
   .card-item {
-    width: 30%; /* Унаследовать ширину */
-    height: 40%; /* Унаследовать высоту */
+    width: 30%; 
+    height: 40%;
   }
   
   .card-image {
@@ -29,8 +29,8 @@
     position: absolute;
     top: 50%;
     left: auto;
-    transform: translateX(-50%); /* Центрирование относительно родителя */
-    z-index: 2; /* Установка z-index для div elexir-image */
+    transform: translateX(-50%);
+    z-index: 2;
     width: 70px;
     height: 70px;
     background-image: url('../../img/Elixir.webp');
